@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://stfdmn.github.io/gnorp/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in stfdmn/gnorp project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://stfdmn.github.io/gnorp/images/yarn/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "yarn"
+                ]
+            },
+            "height": 3882,
+            "width": 3106,
+            "items": [
+                {
+                    "id": "https://stfdmn.github.io/gnorp/images/yarn/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://stfdmn.github.io/gnorp/images/yarn/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://stfdmn.github.io/gnorp/images/yarn/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 98,
+                                                "height": 122
+                                            },
+                                            {
+                                                "width": 195,
+                                                "height": 243
+                                            },
+                                            {
+                                                "width": 389,
+                                                "height": 486
+                                            },
+                                            {
+                                                "width": 777,
+                                                "height": 971
+                                            },
+                                            {
+                                                "width": 1553,
+                                                "height": 1941
+                                            },
+                                            {
+                                                "width": 3106,
+                                                "height": 3882
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3106,
+                                        "@id": "https://stfdmn.github.io/gnorp/images/yarn",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3882,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://stfdmn.github.io/gnorp/images/yarn/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
